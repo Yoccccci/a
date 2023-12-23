@@ -7,10 +7,9 @@
   font-family: "M PLUS Rounded 1c", sans-serif;
 }
 
-/* 横スクロール無効 */
-html,body {
+body {
   overflow-x: hidden;
-}
+ }
 
 /* ナビゲーション */
 nav {
