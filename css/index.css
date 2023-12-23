@@ -1,0 +1,134 @@
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.spacer {
+  width: 100%;
+}
+
+@media screen and (max-width: 1600px) {
+  .header .notice {
+    width: 50%;
+    margin-top: 100px;
+    margin-right: 0;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .header {
+    display: block;
+  }
+  .header .news {
+    width: 100%;
+    margin-left: 0px;
+    text-align: center;
+  }
+  .header .allSearch {
+    width: 100%;
+    margin-top: 100px;
+    margin-left: 0px;
+    text-align: center;
+  }
+  .header .notice {
+    width: 100%;
+    margin-top: 100px;
+    margin-right: 0;
+    text-align: center;
+  }
+}
+
+.news {
+  list-style: none;
+  margin-left: 8%;
+  width: 30%;
+  margin-top: 50px;
+  height: auto;
+  background-color: #eeeeee;
+  box-sizing: border-box;
+  border-radius: 25px 25px 25px 25px;
+  border: 1px solid #bd973d;
+}
+
+.news a {
+  color: #333;
+  font-weight: bold;
+  margin-top: 100px;
+  margin-left: 25px;
+}
+
+.news li {
+  padding-bottom: 15px;
+}
+
+.monthNews {
+  color: #333;
+  padding: 10px 10px 9px;
+}
+
+.allSearch {
+  list-style: none;
+  margin-left: 4%;
+  margin-right: 8%;
+  width: 50%;
+  margin-top: 50px;
+  height: auto;
+  background-color: #EEEEEE;
+  box-sizing: border-box;
+  border-radius: 25px 25px 25px 25px;
+  border: 1px solid #bd973d;
+}
+
+.allSearch a {
+  color: #333;
+  font-weight: bold;
+  margin-top: 100px;
+  margin-left: 25px;
+}
+
+.allSearch li {
+  padding-bottom: 15px;
+}
+
+.search {
+  color: #333;
+  padding: 10px 10px 9px;
+}
+
+.request {
+  list-style: none;
+  margin-bottom: 10px;
+  margin-right: 0;
+}
+
+.notice {
+  list-style: none;
+  text-align: center;
+  margin-right: 54%;
+  width: 30%;
+  margin-top: 50px;
+  height: auto;
+  background-color: #eeeeee;
+  box-sizing: border-box;
+  border-radius: 25px 25px 25px 25px;
+  border: 1px solid #bd973d;
+}
+
+.notice .img  {
+  text-align: center;
+}
+
+.notice a {
+  color: #333;
+  font-weight: bold;
+  margin-top: 100px;
+}
+
+.notice li {
+  padding-bottom: 15px;
+  text-align: center;
+
+}
+
